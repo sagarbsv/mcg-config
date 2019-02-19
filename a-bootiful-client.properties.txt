@@ -17,3 +17,7 @@ spring.rabbitmq.password=guest
 tcs.rabbitmq.exchange=tcs.exchange
 tcs.rabbitmq.queue=tcs.queue
 tcs.rabbitmq.routingkey=tcs.routingkey
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+server.port=9091
+
